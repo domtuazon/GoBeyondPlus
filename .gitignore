@@ -1,0 +1,7 @@
+app.pyc
+bin/
+bower_components/
+include/
+lib/
+local/
+pip-selfcheck.json
