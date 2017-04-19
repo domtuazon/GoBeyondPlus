@@ -1,7 +1,10 @@
+.bowerrc
 app.pyc
 bin/
 bower_components/
 include/
 lib/
 local/
+Scripts
+tcl
 pip-selfcheck.json
