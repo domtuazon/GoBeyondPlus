@@ -1,15 +1,24 @@
 // main: main.less
 
 .activity-box {
-    border: 1px solid #ececec;
-    border-radius: @border-radius;
-    background-color: black;
-    
-    .img-wrap {
 
+    .img-wrap {
+        img {
+            border-top-left-radius: @border-radius;
+            border-top-right-radius: @border-radius;
+        }
     }
 
     .description {
+        padding: (@padding-base - 5) @padding-base 0;
+        border: 1px solid @light-gray;
+        border-top: 0;
+        border-bottom-left-radius: @border-radius;
+        border-bottom-right-radius: @border-radius;
 
+        .details {
+            color: darken(@light-gray, 30%);
+            font-size: 12px;
+        }
     }
 }

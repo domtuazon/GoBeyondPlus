@@ -9,3 +9,4 @@ Scripts
 tcl
 pip-selfcheck.json
 node_modules
+__pycache__
