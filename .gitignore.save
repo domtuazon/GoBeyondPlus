@@ -1,0 +1,11 @@
+.gitignore
+pp.py
+	app.pyc
+	bin/
+	bower_components/
+	include/
+	lib/
+	local/
+	pip-selfcheck.json
+	static/
+	templates/

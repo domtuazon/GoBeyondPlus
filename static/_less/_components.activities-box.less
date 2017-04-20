@@ -10,15 +10,25 @@
     }
 
     .description {
-        padding: (@padding-base - 5) @padding-base 0;
+        padding: (@padding-base - 5) @padding-base 1px;
         border: 1px solid @light-gray;
         border-top: 0;
-        border-bottom-left-radius: @border-radius;
-        border-bottom-right-radius: @border-radius;
+        border-bottom: 0;
+
+        h4 {
+            margin-top: 0;
+        }
 
         .details {
             color: darken(@light-gray, 30%);
             font-size: 12px;
+        }
+    }
+
+    .footer {
+        .btn {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
         }
     }
 }
