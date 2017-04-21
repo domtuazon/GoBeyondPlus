@@ -12,7 +12,7 @@
                             <div class="col-md-4">
                                 <div class="activity-box">
                                     <div class="img-wrap">
-                                        <img src="{{ url_for('static', filename='images/thumbs1.jpg') }}" alt="" class="img-responsive">
+                                        <img src="{{ url_for('static', filename='images/thumbs1.jpg') }}" data-fullimage="{{ url_for('static', filename='images/activity1.jpg') }}" alt="" class="img-responsive">
                                     </div>
                                     <div class="description">
                                         <small><i class="fa fa-map-o"></i> SM Mall of Asia</small>
@@ -24,14 +24,14 @@
                                         </p>
                                     </div>
                                     <div class="footer">
-                                        <button class="btn btn-block btn-default" data-toggle="modal" data-target="#activities-modal">More Info</button>
+                                        <button class="btn btn-block btn-default">More Info</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="activity-box">
                                     <div class="img-wrap">
-                                        <img src="{{ url_for('static', filename='images/thumbs2.jpg') }}" alt="" class="img-responsive">
+                                        <img src="{{ url_for('static', filename='images/thumbs2.jpg') }}" data-fullimage="{{ url_for('static', filename='images/coffee-full.jpeg') }}" alt="" class="img-responsive">
                                     </div>
                                     <div class="description">
                                         <small><i class="fa fa-map-o"></i> 14F UnionBank Plaza</small>
@@ -43,14 +43,14 @@
                                         </p>
                                     </div>
                                     <div class="footer">
-                                        <button class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">More Info</button>
+                                        <button class="btn btn-block btn-default">More Info</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="activity-box">
                                     <div class="img-wrap">
-                                        <img src="{{ url_for('static', filename='images/thumbs3.jpg') }}" alt="" class="img-responsive">
+                                        <img src="{{ url_for('static', filename='images/thumbs3.jpg') }}" data-fullimage="{{ url_for('static', filename='images/coron.jpg') }}" alt="" class="img-responsive">
                                     </div>
                                     <div class="description">
                                         <small><i class="fa fa-map-o"></i> Coron Bay, Palawan</small>
@@ -62,7 +62,7 @@
                                         </p>
                                     </div>
                                     <div class="footer">
-                                        <button class="btn btn-block btn-default" data-toggle="modal" data-target="#myModal">More Info</button>
+                                        <button class="btn btn-block btn-default">More Info</button>
                                     </div>
                                 </div>
                             </div>
@@ -80,31 +80,31 @@
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="row">
-                            <div class="col-md-2 col-md-offset-1">
+                            <div class="col-md-2 col-xs-6 col-md-offset-1">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/badminton.jpg') }}" alt="" class="img-circle img-responsive">
                                     <h4>Badminton</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/basketball.png') }}" alt="" class="img-circle img-responsive">
                                     <h4>Basketball</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/lunch.jpg') }}" alt="" class="img-circle img-responsive">
                                     <h4>Ladies who Lunch</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/running.png') }}" alt="" class="img-circle img-responsive">
                                     <h4>Hermes</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6 col-xs-offset-3 col-md-offset-0">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/coffee.jpg') }}" alt="" class="img-circle img-responsive">
                                     <h4>Coffee Hipsters</h4>
@@ -112,31 +112,31 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-2 col-md-offset-1">
+                            <div class="col-md-2 col-xs-6 col-md-offset-1">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/scuba.jpg') }}" alt="" class="img-circle img-responsive">
                                     <h4>Scuba Diving</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/photography.jpg') }}" alt="" class="img-circle img-responsive">
                                     <h4>Photography</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/tennis.png') }}" alt="" class="img-circle img-responsive">
                                     <h4>Tennis</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/game.jpg') }}" alt="" class="img-circle img-responsive">
                                     <h4>Online Gaming</h4>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-xs-6 col-xs-offset-3 col-md-offset-0">
                                 <div class="interest-group-container">
                                     <img src="{{ url_for('static', filename='images/fitness.png') }}" alt="" class="img-circle img-responsive">
                                     <h4>Shopping</h4>
@@ -153,9 +153,9 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="activities-modalLabel">NatGeo Run 2017</h4>
+                    <h4 class="modal-title" id="activity-modal-title">NatGeo Run 2017</h4>
                 </div>
-                <img src="{{ url_for('static', filename='images/activity1.jpg') }}" alt="" class="img-responsive">
+                <img id="activity-image" src="{{ url_for('static', filename='images/activity1.jpg') }}" alt="" class="img-responsive">
                 <div class="modal-body">
                     <div class="clearfix">
                         <div class="pull-left">
@@ -232,12 +232,12 @@
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <div class="row">
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -245,12 +245,12 @@
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <div class="row">
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -258,12 +258,12 @@
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <div class="row">
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -271,12 +271,12 @@
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <div class="row">
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
-                                            <div class="col-sm-2"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
+                                            <div class="col-sm-2 col-xs-4"><img src="{{ url_for('static', filename='images/user.png') }}" alt="" class="img-responsive"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -338,9 +338,31 @@
                     cell_size: 40,
                     x_colors: 'random'
                 });
-                console.log(pattern.png());
+
                 $('.ig-name-container').css('background-image', 'url('+pattern.png()+')');
+
+                // Get details of interest group
+                var img_src = $(this).find('img').attr('src');
+                var ig_name = $(this).find('h4').html();
+
+                // Set grabbed details to modal
+                $('#ig-logo').prop('src', img_src);
+                $('#ig-name').html(ig_name);
+
                 $('#interest-group-modal').modal('show');
+            });
+
+            $('.footer button').on('click', function() {
+                var $activityBox = $(this).parent().parent();
+                var event_name = $activityBox.find('.description h4').html();
+                var event_img = $activityBox.find('.img-wrap img').data('fullimage');
+                console.log(event_name);
+                console.log(event_img);
+                console.log($(this).parent())
+                $('#activity-modal-title').html(event_name);
+                $('#activity-image').prop('src', event_img);
+
+                $('#activities-modal').modal('show');
             });
 
         });
